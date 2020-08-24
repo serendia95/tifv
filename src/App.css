@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+@media (max-width: 768px) {
+  .about-info p {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+body::before {    
+  content: "";
+  background-image: url('./bg2.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+a {
+  font-weight: normal;
+}
+
+.main h1 {
+  padding-top: 150px !important;
+  margin-bottom: 0px !important;
+  position: sticky;
+}
+
+.zero {
+  margin-top: 80px;
+}
+
+.about {
+  margin-bottom: 100px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: static;
+}
+
+.tableau-title h4 {
+  padding-bottom: 15px;
+}
+
+.about-info {
+  margin-top: 20px;
+  padding: unset !important;
+}
+
+.about-info p {
+  width: auto;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 20px;
+  position: sticky;
+}
+
+.tableau-container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  position: sticky;
+}
+
+.contact-form {
+  position: sticky;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #8491a5;
+  min-width: 0px;
+  max-width: 385px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+  display: block;
+  position: sticky;
+}
+
+.contact-form input {
+  height: 48px;
+}
+
+.contact-form textarea {
+  height: 184px;
+}
+
+.contact-form input[type=submit] {
+  color: #fff;
+  min-width: 100px;
+  max-width: 184px;
+  height: 48px;
+  font-size: 13px;
+  background-color: #30c8d6;
+  border: none;
+  margin-top: 32px;
+}
+
+.contact-form input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.contact-submit-message {
+  box-sizing: border-box;
+  color: #16a48a;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(48, 214, 184, 0.16);
+  border: 2px solid #30d6b8;
+  border-radius: 3px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
